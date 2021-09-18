@@ -1,15 +1,16 @@
 <?php
 
-class Produk{
-    public $judul = "judul",
-            $penulis = "penulis",
-            $penerbit = "penerbit",
-            $harga = "0";
+class Produk
+{
+  public $judul = "judul",
+    $penulis = "penulis",
+    $penerbit = "penerbit",
+    $harga = "0";
 
-public function getLabel() {
-  return "$this->penulis, $this->penerbit";
-}
-
+  public function getLabel()
+  {
+    return "$this->penulis, $this->penerbit";
+  }
 }
 
 
