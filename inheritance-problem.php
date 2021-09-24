@@ -57,7 +57,5 @@ $produk1 = new Produk("Naruto", "Masashi Kishimoto", "Shounen Jump", 30000, 100,
 $produk2 = new Produk("Uncharted", "Neil Druckman", "Sony computer", 250000, 0, 50, "Game");
 
 echo $produk1->getInfoLengkap();
-
-
-// Komik : Naruto | Mashashi Kishimoto, Shonen Jump (Rp. 30000) - 100 Halaman.
-// Game : Uncharter | Neil Druckman, Sony Computer (Rp.250000) - 50 jam.
+echo "<br>";
+echo $produk2->getInfoLengkap();
